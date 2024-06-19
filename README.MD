@@ -13,4 +13,6 @@ $ docker-compose up
 
 - Além disso adicionei uma função para criar as tabelas no banco assim que conectar algo que estava faltando antes.
 
-<img src="https://i.imgur.com/o6y18Vk.png" alt="Aplicação">
+<img src="https://imgur.com/bldYsFh" alt="imprimir">
+
+<img src="https://imgur.com/BfGsUl1" alt="vendas">
