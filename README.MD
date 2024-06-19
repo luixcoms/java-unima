@@ -1,17 +1,22 @@
-# Alterações Feitas:
-- Adicionei o Maven um gerenciador de dependências para facilitar a distribuição da aplicação, ou seja, agora qualquer um pode simplesmente clonar o repositório e instalar as dependências e utilizar.
+Alterações Implementadas:
 
-- Criei um docker-compose para a criação do banco MariaDB, para utilizá-lo é só digitar:
+Gerenciamento de Dependências com Maven:
 
-```bash
-$ docker-compose up
-```
+- O Maven foi integrado como gerenciador de dependências, facilitando a instalação e o uso da aplicação.
+Agora, qualquer pessoa pode clonar o repositório, executar o comando mvn install e começar a usar a aplicação sem complicações.
+Banco de Dados Simplificado com Docker Compose:
 
-- Atualizei Dependências
+- Um arquivo docker-compose foi criado para provisionar automaticamente um banco de dados MariaDB.
+Para iniciar o banco de dados, basta executar o comando docker-compose up.
+Relatórios Dinâmicos com JasperReports:
 
-- Agora o Jasper pode gerar relatórios dinâmicos basta que forneça um arquivo .jrfxml e ele irá buildar um novo .jasper
+- A funcionalidade de geração de relatórios dinâmicos com JasperReports foi implementada.
+Basta fornecer um arquivo .jrfxml e o Jasper irá gerar um novo relatório .jasper personalizado.
 
-- Além disso adicionei uma função para criar as tabelas no banco assim que conectar algo que estava faltando antes.
+Criação Automática de Tabelas no Banco de Dados:
+
+- Uma função para criar automaticamente as tabelas no banco de dados MariaDB ao se conectar foi adicionada.
+Essa funcionalidade elimina a necessidade de criar as tabelas manualmente, agilizando o processo de configuração.
 
 <img src="https://i.imgur.com/BfGsUl1.jpeg" alt="Java">
 
