@@ -13,6 +13,6 @@ $ docker-compose up
 
 - Além disso adicionei uma função para criar as tabelas no banco assim que conectar algo que estava faltando antes.
 
-<img src="https://imgur.com/bldYsFh" alt="Java">
+<img src="https://imgur.com/gallery/relatorio-bldYsFh" alt="Java">
 
-<img src="https://imgur.com/BfGsUl1" alt="Java">
+<img src="https://i.imgur.com/bldYsFh.jpeg" alt="Java">
